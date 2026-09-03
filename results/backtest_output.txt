@@ -1,0 +1,40 @@
+==============================================================================
+Days-to-cover cross-sectional long/short -- pre-registered direction:
+  LONG lowest-days-to-cover tercile, SHORT highest-days-to-cover tercile
+  entry/exit lag = 4 trading days after each settlement date
+==============================================================================
+
+COST SENSITIVITY (full sample, pre-registered direction):
+  cost=  0.0bps/side ->  periods=124  total_return=+149.69%  mean/period=+1.207%  Sharpe(ann)=+0.76  win_rate=57.3%  maxDD=-63.42%
+  cost=  5.0bps/side ->  periods=124  total_return=+124.89%  mean/period=+1.007%  Sharpe(ann)=+0.63  win_rate=54.0%  maxDD=-67.62%
+  cost= 10.0bps/side ->  periods=124  total_return=+100.09%  mean/period=+0.807%  Sharpe(ann)=+0.51  win_rate=52.4%  maxDD=-71.82%
+  cost= 20.0bps/side ->  periods=124  total_return=+50.49%  mean/period=+0.407%  Sharpe(ann)=+0.26  win_rate=49.2%  maxDD=-80.22%
+
+HEADLINE (cost=5.0bps/side):
+
+[in_sample] strategy:
+  periods=74  total_return=+79.59%  mean/period=+1.075%  Sharpe(ann)=+0.79  win_rate=58.1%  maxDD=-33.81%
+[in_sample] benchmark (equal-weight long-only basket):
+  periods=74  total_return=-51.76%  mean/period=-0.699%  Sharpe(ann)=-0.37  win_rate=40.5%  maxDD=-147.51%
+
+[out_of_sample] strategy:
+  periods=50  total_return=+45.30%  mean/period=+0.906%  Sharpe(ann)=+0.48  win_rate=48.0%  maxDD=-67.62%
+[out_of_sample] benchmark (equal-weight long-only basket):
+  periods=50  total_return=+164.07%  mean/period=+3.281%  Sharpe(ann)=+0.96  win_rate=56.0%  maxDD=-38.69%
+
+[full_sample] strategy:
+  periods=124  total_return=+124.89%  mean/period=+1.007%  Sharpe(ann)=+0.63  win_rate=54.0%  maxDD=-67.62%
+[full_sample] benchmark (equal-weight long-only basket):
+  periods=124  total_return=+112.32%  mean/period=+0.906%  Sharpe(ann)=+0.34  win_rate=46.8%  maxDD=-147.51%
+
+CONTRARIAN MIRROR (long high-DTC / short low-DTC), for reference:
+[out_of_sample]  periods=50  total_return=-65.30%  mean/period=-1.306%  Sharpe(ann)=-0.69  win_rate=44.0%  maxDD=-131.92%
+
+OOS OUTLIER ROBUSTNESS:
+  OOS total=+45.3%  best single period=+49.4% (2025-07-07..2025-07-21)
+  OOS total EXCLUDING that one period=-4.1%  median period=-0.12%  positive periods=24/50
+
+Per-leg trade summary (all legs, headline run):
+  {'n_trades': 1964, 'net_pnl': 1.2488773166785188, 'gross_pnl': 1.496877316678519, 'total_fees': 0.2480000000000001, 'win_rate': 0.5112016293279023, 'avg_hold_periods': 1.0, 'max_drawdown': -0.8210888278617252}
+
+wrote /Users/sushanthtiruvaipati/Documents/GitHub/short-interest-signal/results/summary.json

@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+# raw FINRA files are large & re-downloadable; keep only the filtered basket parquet
+data/finra_raw/

@@ -1,0 +1,7 @@
+yfinance
+pandas
+numpy
+pyarrow
+pytest
+requests
+alpaca-py>=0.33

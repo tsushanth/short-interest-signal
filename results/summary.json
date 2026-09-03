@@ -1,0 +1,176 @@
+{
+  "config": {
+    "cost_bps": 5.0,
+    "lag_trading_days": 4,
+    "is_fraction": 0.6,
+    "periods_per_year": 24
+  },
+  "pre_registered_direction": {
+    "n_periods": 124,
+    "in_sample": {
+      "strategy": {
+        "n_periods": 74,
+        "total_return": 0.7958673182833639,
+        "mean_period_return": 0.010754963760586,
+        "std_period_return": 0.06680105602369306,
+        "sharpe_annualized": 0.7887352381440325,
+        "win_rate": 0.581081081081081,
+        "max_drawdown": -0.33813685222231527,
+        "best_period": 0.18018120186786973,
+        "worst_period": -0.16361047343307838
+      },
+      "benchmark_longonly": {
+        "n_periods": 74,
+        "total_return": -0.5175552954845507,
+        "mean_period_return": -0.006993990479520961,
+        "std_period_return": 0.09182473318668173,
+        "sharpe_annualized": -0.37313929147783415,
+        "win_rate": 0.40540540540540543,
+        "max_drawdown": -1.475129890939876,
+        "best_period": 0.22925340352936782,
+        "worst_period": -0.18871448101317947
+      }
+    },
+    "out_of_sample": {
+      "strategy": {
+        "n_periods": 50,
+        "total_return": 0.453009998395155,
+        "mean_period_return": 0.009060199967903096,
+        "std_period_return": 0.09258788226933798,
+        "sharpe_annualized": 0.4793903121011906,
+        "win_rate": 0.48,
+        "max_drawdown": -0.6761890866898057,
+        "best_period": 0.49371888329488106,
+        "worst_period": -0.10069358832238447
+      },
+      "benchmark_longonly": {
+        "n_periods": 50,
+        "total_return": 1.640736164795824,
+        "mean_period_return": 0.032814723295916476,
+        "std_period_return": 0.1680633789498675,
+        "sharpe_annualized": 0.9565359048218632,
+        "win_rate": 0.56,
+        "max_drawdown": -0.3868870373941128,
+        "best_period": 1.026863155222158,
+        "worst_period": -0.221874654416946
+      }
+    },
+    "full_sample": {
+      "strategy": {
+        "n_periods": 124,
+        "total_return": 1.248877316678519,
+        "mean_period_return": 0.010071591263536442,
+        "std_period_return": 0.0778727753313163,
+        "sharpe_annualized": 0.6336042188961541,
+        "win_rate": 0.5403225806451613,
+        "max_drawdown": -0.6761890866898057,
+        "best_period": 0.49371888329488106,
+        "worst_period": -0.16361047343307838
+      },
+      "benchmark_longonly": {
+        "n_periods": 124,
+        "total_return": 1.1231808693112735,
+        "mean_period_return": 0.009057910236381233,
+        "std_period_return": 0.1289994685510657,
+        "sharpe_annualized": 0.34398991661401357,
+        "win_rate": 0.46774193548387094,
+        "max_drawdown": -1.475129890939876,
+        "best_period": 1.026863155222158,
+        "worst_period": -0.221874654416946
+      }
+    }
+  },
+  "contrarian_mirror": {
+    "n_periods": 124,
+    "in_sample": {
+      "strategy": {
+        "n_periods": 74,
+        "total_return": -1.091867318283364,
+        "mean_period_return": -0.014754963760586,
+        "std_period_return": 0.06680105602369306,
+        "sharpe_annualized": -1.0820826656954043,
+        "win_rate": 0.40540540540540543,
+        "max_drawdown": -1.2763506823171147,
+        "best_period": 0.15961047343307838,
+        "worst_period": -0.18418120186786974
+      },
+      "benchmark_longonly": {
+        "n_periods": 74,
+        "total_return": -0.5175552954845507,
+        "mean_period_return": -0.006993990479520961,
+        "std_period_return": 0.09182473318668173,
+        "sharpe_annualized": -0.37313929147783415,
+        "win_rate": 0.40540540540540543,
+        "max_drawdown": -1.475129890939876,
+        "best_period": 0.22925340352936782,
+        "worst_period": -0.18871448101317947
+      }
+    },
+    "out_of_sample": {
+      "strategy": {
+        "n_periods": 50,
+        "total_return": -0.653009998395155,
+        "mean_period_return": -0.013060199967903101,
+        "std_period_return": 0.09258788226933799,
+        "sharpe_annualized": -0.6910369926598943,
+        "win_rate": 0.44,
+        "max_drawdown": -1.319202499555775,
+        "best_period": 0.09669358832238446,
+        "worst_period": -0.4977188832948812
+      },
+      "benchmark_longonly": {
+        "n_periods": 50,
+        "total_return": 1.640736164795824,
+        "mean_period_return": 0.032814723295916476,
+        "std_period_return": 0.1680633789498675,
+        "sharpe_annualized": 0.9565359048218632,
+        "win_rate": 0.56,
+        "max_drawdown": -0.3868870373941128,
+        "best_period": 1.026863155222158,
+        "worst_period": -0.221874654416946
+      }
+    },
+    "full_sample": {
+      "strategy": {
+        "n_periods": 124,
+        "total_return": -1.7448773166785205,
+        "mean_period_return": -0.014071591263536447,
+        "std_period_return": 0.0778727753313163,
+        "sharpe_annualized": -0.8852443827261057,
+        "win_rate": 0.41935483870967744,
+        "max_drawdown": -2.2899607943634295,
+        "best_period": 0.15961047343307838,
+        "worst_period": -0.4977188832948812
+      },
+      "benchmark_longonly": {
+        "n_periods": 124,
+        "total_return": 1.1231808693112735,
+        "mean_period_return": 0.009057910236381233,
+        "std_period_return": 0.1289994685510657,
+        "sharpe_annualized": 0.34398991661401357,
+        "win_rate": 0.46774193548387094,
+        "max_drawdown": -1.475129890939876,
+        "best_period": 1.026863155222158,
+        "worst_period": -0.221874654416946
+      }
+    }
+  },
+  "oos_outlier_robustness": {
+    "oos_total_return": 0.45300999839515477,
+    "oos_best_period_return": 0.49371888329488106,
+    "oos_best_period": "2025-07-07..2025-07-21",
+    "oos_total_ex_best_period": -0.040708884899726294,
+    "oos_median_period_return": -0.0011977551956483727,
+    "oos_periods_positive": 24,
+    "oos_n_periods": 50
+  },
+  "per_leg_summary": {
+    "n_trades": 1964,
+    "net_pnl": 1.2488773166785188,
+    "gross_pnl": 1.496877316678519,
+    "total_fees": 0.2480000000000001,
+    "win_rate": 0.5112016293279023,
+    "avg_hold_periods": 1.0,
+    "max_drawdown": -0.8210888278617252
+  }
+}
